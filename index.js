@@ -10,3 +10,19 @@ vars.forEach(value => {
   console.log([value, typeof value]);
 });
 console.log(typeof vars);
+
+/*
+ * JS Types
+ * string, number, boolean, object, undefined
+ */
+
+var obj = {
+  name: 'Max'
+};
+
+console.log(obj.name);
+
+
+var obj2 = {
+  name: 'Max'
+};
