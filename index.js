@@ -9,3 +9,4 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 import './Lessons/variable-types.js';
 import './Lessons/strict-mode.js';
 import './Lessons/dynamic-typing.js';
+import './Lessons/hoisting.js';
