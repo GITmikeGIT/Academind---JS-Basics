@@ -1,3 +1,5 @@
+var path = require('path');
+console.log(path.basename(__filename));
 /**
  * STRICT MODE - is enabled so can't create global variable without var keyword
  */

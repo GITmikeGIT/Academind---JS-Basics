@@ -1,3 +1,5 @@
+var path = require('path');
+console.log(path.basename(__filename));
 var vars = [true, 'text', 5, 5.5];
 vars.forEach(value => {
   console.log([value, typeof value]);
