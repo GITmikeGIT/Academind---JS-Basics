@@ -163,3 +163,29 @@ a = 10;
 b = Infinity;
 
 console.log(a / b);
+
+/** Comparing values */
+console.log('Comparing values');
+
+console.log(1 == 1);
+console.log(1 === 1);
+console.log(1 == '1');
+console.log(1 === '1');
+console.log(1 != 2);
+console.log(1 !== '1');
+console.log(1 > 1);
+console.log(1 > 0);
+console.log(1 >= 0);
+
+/** Important Rules */
+console.log('Important Rules');
+
+console.log(NaN == NaN);
+console.log(NaN != NaN);
+console.log(null == 0);
+/** null cannot be compared: Exception below
+ * undefined compared to anything returns false: Exception true below
+ */
+console.log(null == undefined);
+
+console.log(0 == undefined);
