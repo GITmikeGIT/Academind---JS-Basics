@@ -75,3 +75,67 @@ switch (luckyNo) {
   default:
     console.log('Default');
 }
+
+/** For loop */
+console.log('Loops');
+for (var i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+/** Nested loop */
+console.log('Nested');
+for (var i = 1; i <= 5; i++) {
+  for (var j = 1; j <= 3; j++) {
+    console.log(i * j);
+  }
+}
+
+/** Control loop with break & continue */
+console.log('Loop - break & continue');
+for (var i = 0; i < 5; i++) {
+  if (i == 1) {
+    break;
+  }
+  console.log(i);
+}
+console.log('Loop - break & continue');
+
+for (var i = 0; i < 5; i++) {
+  for (var j = 1; j <= 3; j++) {
+    if (i == 1) {
+      continue;
+    }
+  }
+  console.log(i);
+}
+console.log('Loop - break & continue');
+
+for (var i = 0; i < 5; i++) {
+  for (var j = 1; j <= 3; j++) {
+    if (i == 1) {
+      break;
+    }
+  }
+  console.log(i);
+}
+
+/** For loop variations */
+console.log('Loop - variations');
+
+for (var i = 2; i < 5; i = i + 3) {
+  console.log(i);
+}
+
+for (var i = 2; i > 1; i--) {
+  console.log(i);
+}
+
+/** Loop through arrays */
+console.log('Loop - arrays');
+
+var array = [1, 2, 3, 4, 5, 6, 7];
+var arrayLen = array.length;
+
+for (var i = 0; i < arrayLen; i++) {
+  console.log(array[i]);
+}
