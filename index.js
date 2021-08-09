@@ -12,3 +12,4 @@ import './Lessons/dynamic-typing.js';
 import './Lessons/hoisting.js';
 import './Lessons/functions.js';
 import './Lessons/control-structures.js';
+import './Lessons/operators.js';
