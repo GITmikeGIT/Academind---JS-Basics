@@ -51,3 +51,27 @@ if (condition) {
   console.log('Not Executed!');
 }
 
+/** Switch */
+var luckyNo = 8;
+
+switch (luckyNo) {
+  case 1:
+    console.log('Is 1');
+    break;
+  case 8:
+    console.log('Is 8');
+    break;
+  default:
+    console.log('Default');
+}
+
+var luckyNo = 1;
+
+switch (luckyNo) {
+  case 1:
+    console.log('Is 1');
+  case 8:
+    console.log('Is 8');
+  default:
+    console.log('Default');
+}
