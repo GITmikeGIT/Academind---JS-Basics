@@ -15,6 +15,8 @@ b = 4.5;
 console.log(a + b);
 
 /** Concatenating */
+console.log('Concatenating');
+
 a = 'Join ';
 b = 'Us!';
 console.log(a + b);
@@ -64,6 +66,7 @@ b = NaN;
 console.log(a + b);
 
 /** Subtraction */
+console.log('Subtraction');
 
 a = 12;
 b = 1;
@@ -97,6 +100,7 @@ b = NaN;
 console.log(a - b);
 
 /** Multiplication & Floating point problems */
+console.log('Multiplication & Floating point problems ');
 
 a = 12;
 b = 2;
@@ -126,3 +130,36 @@ a = 2;
 b = Infinity;
 
 console.log(a * b);
+
+/** Division & Modulus */
+console.log('Division & Modulus');
+
+a = 12;
+b = 2;
+
+console.log(a / b);
+
+a = 12;
+b = '2';
+
+console.log(a / b);
+
+a = 3.3;
+b = 2.2;
+
+console.log((a / b).toFixed(2));
+
+a = 10;
+b = 3;
+
+console.log(a % b);
+
+a = 10;
+b = 0;
+
+console.log(a / b);
+
+a = 10;
+b = Infinity;
+
+console.log(a / b);
