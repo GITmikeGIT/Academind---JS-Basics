@@ -139,3 +139,30 @@ var arrayLen = array.length;
 for (var i = 0; i < arrayLen; i++) {
   console.log(array[i]);
 }
+
+/** While loop */
+console.log('While loop');
+var number = 5;
+
+while (number < 7) {
+  console.log(number);
+  number++;
+}
+
+var condition = true;
+var i = 2;
+
+while (condition) {
+  if (i == 3) {
+    condition = false;
+  }
+  console.log(i);
+  i++;
+}
+
+var condition = false;
+var i = 2;
+
+do {
+  console.log('Executed');
+} while (condition);
