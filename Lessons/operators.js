@@ -189,3 +189,26 @@ console.log(null == 0);
 console.log(null == undefined);
 
 console.log(0 == undefined);
+
+/** Boolean */
+console.log('Boolean');
+if (1 == 1 && 2 == 2) console.log('true');
+else console.log('false');
+
+if (1 == 1 && 2 == 3) console.log('true');
+else console.log('false');
+
+if (1 == 1 || 2 == 2) console.log('true');
+else console.log('false');
+
+if ((1 == 1 && 2 == 2) || 2 == 3) console.log('true');
+else console.log('false');
+
+if (1 != 2) console.log('true');
+else console.log('false');
+
+var isTrue = true;
+if (!isTrue) console.log('true');
+else console.log('false');
+
+console.log();
