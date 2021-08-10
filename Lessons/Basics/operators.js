@@ -224,4 +224,15 @@ console.log(a == b ? 'true' : 'false');
 a = 1;
 console.log(a == b ? 'true' : 'false');
 
+/**
+ * Precedence
+ * https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+ *  */
+console.log('Precedence');
+
+var a = 1;
+var b = 2;
+
+console.log(a + b * 2);
+console.log((a + b) * 2);
 console.log();
