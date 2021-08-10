@@ -14,4 +14,12 @@ array[3] = 100;
 array[5] = 100;
 console.log(array);
 
+/** forEach Method */
+console.log('forEach');
+
+var array = [1, 2, 3];
+
+array.forEach(function(element) {
+  console.log(element);
+});
 console.log();
