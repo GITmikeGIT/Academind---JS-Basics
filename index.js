@@ -23,3 +23,4 @@ import './Lessons/Types_Scopes/global_vs_local.js'; */
 import './Lessons/Arrays/basics.js';
 import './Lessons/Arrays/forEach.js';
 import './Lessons/Arrays/push_pop_unshift_shift.js';
+import './Lessons/Arrays/indexOf_splice_slice.js';
