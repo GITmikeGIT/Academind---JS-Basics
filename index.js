@@ -18,3 +18,4 @@ import './Lessons/Basics/operators.js';
 */
 
 import './Lessons/Types_Scopes/primitive_vs_reference.js';
+import './Lessons/Types_Scopes/global_vs_local.js';
