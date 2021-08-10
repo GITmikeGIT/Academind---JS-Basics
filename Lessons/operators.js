@@ -211,4 +211,17 @@ var isTrue = true;
 if (!isTrue) console.log('true');
 else console.log('false');
 
+/** Ternary operators */
+console.log('Ternary operators');
+
+var a = 0,
+  b = 0;
+if (a == b) console.log('true');
+else console.log('false');
+
+console.log(a == b ? 'true' : 'false');
+
+a = 1;
+console.log(a == b ? 'true' : 'false');
+
 console.log();
