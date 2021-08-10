@@ -20,6 +20,7 @@ import './Lessons/Basics/operators.js'; */
 import './Lessons/Types_Scopes/global_vs_local.js'; */
 
 /** ARRAYS */
+/*
 import './Lessons/Arrays/basics.js';
 import './Lessons/Arrays/forEach.js';
 import './Lessons/Arrays/push_pop_unshift_shift.js';
@@ -27,3 +28,7 @@ import './Lessons/Arrays/indexOf_splice_slice.js';
 import './Lessons/Arrays/filtering_mapping_reversing.js';
 import './Lessons/Arrays/concat_vs_join.js';
 import './Lessons/Arrays/reducing.js';
+*/
+
+/** OBJECTS */
+import './Lessons/Objects/basics.js';
