@@ -1,3 +1,6 @@
+var path = require('path');
+console.log(path.basename(__filename));
+
 /** forEach Method */
 console.log('forEach');
 

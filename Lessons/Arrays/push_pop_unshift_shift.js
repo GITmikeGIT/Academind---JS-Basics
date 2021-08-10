@@ -1,3 +1,6 @@
+var path = require('path');
+console.log(path.basename(__filename));
+
 /** Push, Pop, Unshift and Shift */
 console.log('Push, Pop, Unshift and Shift');
 
@@ -14,7 +17,6 @@ console.log(array);
 var array = [1, 2, 3, 4];
 
 console.log(array.shift());
-console.log(array);
 console.log(array);
 
 var array = [1, 2, 3, 4];
