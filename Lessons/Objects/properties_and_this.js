@@ -51,3 +51,14 @@ console.log(anotherPerson == person);
 anotherPerson = person;
 console.log(anotherPerson == person);
 
+/** Object.create() */
+var person = {
+  name: 'Max',
+  age: 27
+};
+
+var anotherPerson = Object.create(person); // prototype as an argument
+anotherPerson.name = 'Anna';
+
+console.log(anotherPerson);
+console.log(anotherPerson.age);
