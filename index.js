@@ -44,3 +44,4 @@ import './Lessons/Arrays/reducing.js';
 import './Lessons/Objects/basics.js';
 import './Lessons/Objects/properties_and_this.js';
 import './Lessons/Objects/prototypes.js';
+import './Lessons/Objects/constructor_functions.js';
