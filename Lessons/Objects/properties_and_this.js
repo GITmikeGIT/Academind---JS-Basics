@@ -19,3 +19,35 @@ console.log(typeof person.name);
 person.greet();
 person.name = 'Anna';
 console.log(person);
+
+/**
+ * Alternative way of Creating Objects - Object Constructor
+ */
+console.log('Object Constructor');
+var anotherPerson = new Object();
+anotherPerson.name = 'Anna';
+anotherPerson.age = 27;
+console.log(anotherPerson);
+
+/**
+ * Objects are Reference Types (Refresher)
+ */
+console.log('Objects are Reference Types');
+
+var person = {
+  name: 'Max',
+  age: 27
+};
+var anotherPerson = new Object();
+anotherPerson.name = 'Max';
+anotherPerson.age = 27;
+console.log(anotherPerson);
+
+console.log(anotherPerson == person);
+
+anotherPerson = { ...person };
+console.log(anotherPerson == person);
+
+anotherPerson = person;
+console.log(anotherPerson == person);
+
