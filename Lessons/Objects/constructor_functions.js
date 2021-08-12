@@ -32,3 +32,19 @@ anotherPerson.greet();
 anotherPerson.greetGeneral();
 
 console.log(anotherPerson instanceof Person);
+
+/**
+ * Constructor functions & arguments
+ */
+console.log('Constructor functions & arguments');
+
+function Person2(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+var max = new Person2('Max', 27);
+var anna = new Person2('Anna', 28);
+
+console.log(max);
+console.log(anna);
