@@ -16,6 +16,8 @@ for (var i = 0; i < 5; i++) {
   }
 }
 
+/** Logging data to the Console */
+
 console.log(a);
 console.log(b);
 console.log(c);
