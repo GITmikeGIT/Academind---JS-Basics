@@ -54,5 +54,6 @@ import './Lessons/Objects/methods_properties.js';
 
 /** ERRORS & DEBUGGING */
 /*
- */
 import './Lessons/Errors_Debugging/developer_tools.js';
+import './Lessons/Errors_Debugging/try_catch.js';
+*/
