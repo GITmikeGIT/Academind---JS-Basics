@@ -48,5 +48,6 @@ import './Lessons/Objects/prototypes.js';
 import './Lessons/Objects/constructor_functions.js';
 import './Lessons/Objects/summary.js';
 import './Lessons/Objects/this_keyword.js';
-*/
 import './Lessons/Objects/creating_properties.js';
+*/
+import './Lessons/Objects/methods_properties.js';
