@@ -57,3 +57,8 @@ import './Lessons/Objects/methods_properties.js';
 import './Lessons/Errors_Debugging/developer_tools.js';
 import './Lessons/Errors_Debugging/try_catch.js';
 */
+
+/** FUNCTIONS (ADVANCED) */
+/*
+ */
+import './Lessons/Functions/closure.js';
