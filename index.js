@@ -3,7 +3,11 @@ import './style.css';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+
+let h1 = document.createElement('h1');
+h1.innerText = 'JS Basics';
+
+appDiv.appendChild(h1);
 
 // Import Javascripts
 /**

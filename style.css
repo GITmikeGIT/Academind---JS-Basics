@@ -7,10 +7,3 @@ h1 {
   font-size: 48px;
   text-align: center;
 }
-h1:hover {
-  color: purple;
-  font-size: calc(48px * 1.05);
-  transition: font 0.5s ease-in-out;
-  font-style: underline;
-  text-underline-position: below;
-}
